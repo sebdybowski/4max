@@ -14,7 +14,8 @@
     "4max",
     "redux",
     "form",
-    "library"
+    "library",
+    "simple"
   ],
   "author": "Seb Dybowski <dybowski@int.pl>",
   "license": "MIT",
