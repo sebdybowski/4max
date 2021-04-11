@@ -1,0 +1,25 @@
+{
+  "name": "4max",
+  "version": "0.0.1",
+  "description": "\"Dead simple form library for redux.\"",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebdybowski/4max.git"
+  },
+  "keywords": [
+    "4max",
+    "redux",
+    "form",
+    "library"
+  ],
+  "author": "Seb Dybowski <dybowski@int.pl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebdybowski/4max/issues"
+  },
+  "homepage": "https://github.com/sebdybowski/4max#readme"
+}
