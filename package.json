@@ -2,8 +2,13 @@
   "name": "4max",
   "version": "0.0.1",
   "description": "\"Dead simple form library for redux.\"",
-  "main": "lib/index.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
+    "build": "rollup --config",
     "test": "npm run test",
     "gen:c": "npx generate-react-cli component"
   },
@@ -23,5 +28,23 @@
   "bugs": {
     "url": "https://github.com/sebdybowski/4max/issues"
   },
-  "homepage": "https://github.com/sebdybowski/4max#readme"
+  "homepage": "https://github.com/sebdybowski/4max#readme",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@types/react": "^17.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.45.2",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.30.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "eslint-plugin-react": "^7.23.2"
+  }
 }
